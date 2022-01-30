@@ -18,102 +18,60 @@ class XylophoneApp extends StatelessWidget {
           child: Column(
             //mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: <Widget>[
-              SizedBox(
-                width: 100.0,
-                child: ElevatedButton(
-                  onPressed: () {
-                    final player = AudioCache();
-                    player.play('note1.wav');
-                  },
-                  child: Text(''),
-                  style: ElevatedButton.styleFrom(
-                    primary: Colors.red,
-                  ),
-                ),
+              FlatButton(
+                color: Colors.red,
+                onPressed: () {
+                  final player = AudioCache();
+                  player.play('note1.wav');
+                }, child: Text(''),
               ),
 
-              SizedBox(
-                width: 100.0,
-                child: ElevatedButton(
-                  onPressed: () {
-                    final player = AudioCache();
-                    player.play('note2.wav');
-                  },
-                  child: Text(''),
-                  style: ElevatedButton.styleFrom(
-                    primary: Colors.orange,
-                  ),
-                ),
+              FlatButton(
+                color: Colors.orange,
+                onPressed: () {
+                  final player = AudioCache();
+                  player.play('note2.wav');
+                }, child: Text(''),
               ),
 
-              SizedBox(
-                width: 100.0,
-                child: ElevatedButton(
-                  onPressed: () {
-                    final player = AudioCache();
-                    player.play('note3.wav');
-                  },
-                  child: Text(''),
-                  style: ElevatedButton.styleFrom(
-                    primary: Colors.yellow,
-                  ),
-                ),
+              FlatButton(
+                color: Colors.yellow,
+                onPressed: () {
+                  final player = AudioCache();
+                  player.play('note3.wav');
+                }, child: Text(''),
               ),
 
-              SizedBox(
-                width: 100.0,
-                child: ElevatedButton(
-                  onPressed: () {
-                    final player = AudioCache();
-                    player.play('note4.wav');
-                  },
-                  child: Text(''),
-                  style: ElevatedButton.styleFrom(
-                    primary: Colors.green,
-                  ),
-                ),
+              FlatButton(
+                color: Colors.green,
+                onPressed: () {
+                  final player = AudioCache();
+                  player.play('note4.wav');
+                }, child: Text(''),
               ),
 
-              SizedBox(
-                width: 100.0,
-                child: ElevatedButton(
-                  onPressed: () {
-                    final player = AudioCache();
-                    player.play('note5.wav');
-                  },
-                  child: Text(''),
-                  style: ElevatedButton.styleFrom(
-                    primary: Colors.teal,
-                  ),
-                ),
+              FlatButton(
+                color: Colors.teal,
+                onPressed: () {
+                  final player = AudioCache();
+                  player.play('note5.wav');
+                }, child: Text(''),
               ),
 
-              SizedBox(
-                width: 100.0,
-                child: ElevatedButton(
-                  onPressed: () {
-                    final player = AudioCache();
-                    player.play('note6.wav');
-                  },
-                  child: Text(''),
-                  style: ElevatedButton.styleFrom(
-                    primary: Colors.blue,
-                  ),
-                ),
+              FlatButton(
+                color: Colors.blue,
+                onPressed: () {
+                  final player = AudioCache();
+                  player.play('note6.wav');
+                }, child: Text(''),
               ),
 
-              SizedBox(
-                width: 100.0,
-                child: ElevatedButton(
-                  onPressed: () {
-                    final player = AudioCache();
-                    player.play('note7.wav');
-                  },
-                  child: Text(''),
-                  style: ElevatedButton.styleFrom(
-                    primary: Colors.purple,
-                  ),
-                ),
+              FlatButton(
+                color: Colors.purple,
+                onPressed: () {
+                  final player = AudioCache();
+                  player.play('note7.wav');
+                }, child: Text(''),
               ),
             ],
           ),
